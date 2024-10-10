@@ -5,14 +5,14 @@ Feature: Placinng an order on the online store
     Then user select their gender "Male"
     Then user enter first name "Bheki"
     Then user enter last name "Dlomo"
-    Then User enter email address "dlomo.dlomo@xetgroup.com"
+    Then User enter email address "sdlomo.dlomo@xetgroup.com"
     Then User enter password "P@ssw0rd1"
     Then User enter confirm password "P@ssw0rd1"
     Then user click register button
     Then user click continue button
     Then user click logout button
     When The user click login link button
-    Then user enter username "dlomo.dlomo@xetgroup.com"
+    Then user enter username "sdlomo.dlomo@xetgroup.com"
     Then user enter Login password "P@ssw0rd1"
     Then user click login
     Then user click computer

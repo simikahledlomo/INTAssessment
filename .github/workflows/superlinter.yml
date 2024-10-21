@@ -1,0 +1,17 @@
+name: Super-Lineter
+
+on: push
+
+jobs:
+  super-lint:
+    name: Lint code base
+    runs-on: ubutntu-latest
+    steps:
+      - name: Checkout cod
+        uses: actions/checkout@v2
+
+        -name: Run Super-Linter
+         uses: github/super-linter@v3
+         evn:
+           DEFAULT_BRANCH: MAIN
+           GITHUB_TOKEN: ${{}}
